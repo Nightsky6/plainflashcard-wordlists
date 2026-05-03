@@ -1,6 +1,6 @@
 # PlainFlashcard 단어 자료실
 
-[PlainFlashcard](https://github.com/NightskyWorks/PlainFlashcard) 앱에서 사용할 수 있는 공식 단어장 모음입니다.
+[PlainFlashcard](https://github.com/Nightsky6/PlainFlashcard) 앱에서 사용할 수 있는 공식 단어장 모음입니다.
 
 ## 앱에서 가져오기
 
