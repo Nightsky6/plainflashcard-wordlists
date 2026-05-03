@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-03",
+  "lists": [
+    {
+      "name": "영어 기초 단어",
+      "description": "일상생활에서 자주 쓰는 영어 기초 단어 모음",
+      "author": "Nightsky Works",
+      "category": "영어",
+      "cardCount": 5,
+      "url": "https://raw.githubusercontent.com/NightskyWorks/plainflashcard-wordlists/main/wordlists/english_basic.json"
+    }
+  ]
+}
