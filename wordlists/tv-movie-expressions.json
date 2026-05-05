@@ -1,0 +1,85 @@
+{
+  "Name": "미드·영화 필수 표현 20",
+  "Cards": [
+    {
+      "Front": "I'm gonna grab a bite.",
+      "Back": "간단히 뭐 좀 먹으러 갈게."
+    },
+    {
+      "Front": "It's on me.",
+      "Back": "내가 살게."
+    },
+    {
+      "Front": "I'm beat.",
+      "Back": "완전 지쳤어."
+    },
+    {
+      "Front": "No hard feelings.",
+      "Back": "기분 나쁘게 생각하지 마."
+    },
+    {
+      "Front": "Cut it out!",
+      "Back": "그만해!"
+    },
+    {
+      "Front": "I'll pass.",
+      "Back": "나는 안 할게. (사양할게)"
+    },
+    {
+      "Front": "You got this!",
+      "Back": "넌 할 수 있어! (잘할 거야)"
+    },
+    {
+      "Front": "I'm all ears.",
+      "Back": "귀 기울여 듣고 있어."
+    },
+    {
+      "Front": "Hang in there.",
+      "Back": "조금만 버텨. (힘내)"
+    },
+    {
+      "Front": "It's a piece of cake.",
+      "Back": "식은 죽 먹기야. (매우 쉬워)"
+    },
+    {
+      "Front": "Let's call it a day.",
+      "Back": "오늘은 이만 마치자."
+    },
+    {
+      "Front": "I can't make it.",
+      "Back": "못 갈 것 같아. (참석 못 해)"
+    },
+    {
+      "Front": "Give me a break!",
+      "Back": "말도 안 돼! (좀 봐줘)"
+    },
+    {
+      "Front": "It's up to you.",
+      "Back": "네 마음대로 해. (네가 정해)"
+    },
+    {
+      "Front": "I'm screwed.",
+      "Back": "망했어. (큰일 났어)"
+    },
+    {
+      "Front": "That's a bummer.",
+      "Back": "안됐다. (실망이네)"
+    },
+    {
+      "Front": "I'm down for that.",
+      "Back": "나 그거 좋아. (찬성)"
+    },
+    {
+      "Front": "You nailed it!",
+      "Back": "완벽하게 해냈어!"
+    },
+    {
+      "Front": "I'm just messing with you.",
+      "Back": "그냥 장난친 거야."
+    },
+    {
+      "Front": "It's a long shot.",
+      "Back": "가능성이 희박해. (요원해)"
+    }
+  ]
+}
