@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Plain Flashcard – Study Smarter</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #f5f5f5;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+
+    /* ── Hero ── */
+    header {
+      background: linear-gradient(135deg, #0f6cbd 0%, #0a4f8f 100%);
+      color: white;
+      padding: 72px 24px 60px;
+      text-align: center;
+    }
+
+    .app-icon {
+      font-size: 3.5rem;
+      margin-bottom: 16px;
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    header p {
+      margin-top: 12px;
+      font-size: 1.05rem;
+      opacity: 0.88;
+      max-width: 480px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .badge-row {
+      margin-top: 28px;
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: 999px;
+      padding: 6px 16px;
+      font-size: 0.85rem;
+      backdrop-filter: blur(4px);
+    }
+
+    /* ── Main ── */
+    main {
+      max-width: 780px;
+      margin: 48px auto;
+      padding: 0 24px 80px;
+    }
+
+    .section-title {
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: #0f6cbd;
+      margin-bottom: 16px;
+    }
+
+    /* Feature grid */
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-bottom: 48px;
+    }
+
+    .feature-card {
+      background: white;
+      border-radius: 12px;
+      padding: 24px 20px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    }
+
+    .feature-icon {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    .feature-card h3 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .feature-card p {
+      font-size: 0.875rem;
+      color: #666;
+    }
+
+    /* Screenshot placeholder */
+    .screenshot-box {
+      background: white;
+      border-radius: 12px;
+      padding: 32px;
+      text-align: center;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+      margin-bottom: 48px;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+
+    /* Info card */
+    .info-card {
+      background: white;
+      border-radius: 12px;
+      padding: 28px 32px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+    }
+
+    .info-card h2 {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #0f6cbd;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .info-card h2::before {
+      content: '';
+      display: inline-block;
+      width: 4px;
+      height: 18px;
+      background: #0f6cbd;
+      border-radius: 2px;
+    }
+
+    .info-card p {
+      font-size: 0.95rem;
+      color: #444;
+    }
+
+    .link-row {
+      display: flex;
+      gap: 12px;
+      margin-top: 14px;
+      flex-wrap: wrap;
+    }
+
+    .link-btn {
+      display: inline-block;
+      padding: 8px 20px;
+      border-radius: 8px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: opacity 0.15s;
+    }
+
+    .link-btn:hover { opacity: 0.8; }
+
+    .link-btn.primary {
+      background: #0f6cbd;
+      color: white;
+    }
+
+    .link-btn.secondary {
+      background: #f0f0f0;
+      color: #333;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 0.85rem;
+      color: #aaa;
+      border-top: 1px solid #e5e5e5;
+    }
+
+    footer a {
+      color: #0f6cbd;
+      text-decoration: none;
+    }
+
+    footer a:hover { text-decoration: underline; }
+
+    /* Dark mode */
+    @media (prefers-color-scheme: dark) {
+      body { background: #1a1a1a; color: #e5e5e5; }
+      header { background: linear-gradient(135deg, #0a4f8f 0%, #072f5a 100%); }
+      .feature-card, .info-card, .screenshot-box { background: #2a2a2a; box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+      .feature-card p, .info-card p { color: #aaa; }
+      h3 { color: #e5e5e5; }
+      .link-btn.secondary { background: #333; color: #ddd; }
+      footer { border-top-color: #333; }
+      .info-card h2 { color: #4da3e8; }
+      .info-card h2::before { background: #4da3e8; }
+      .screenshot-box { color: #555; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="app-icon">🗂️</div>
+    <h1>Plain Flashcard</h1>
+    <p>A clean and simple flashcard app for Windows. Study vocabulary, quiz yourself, and learn at your own pace.</p>
+    <div class="badge-row">
+      <span class="badge">Windows 10 / 11</span>
+      <span class="badge">Free</span>
+      <span class="badge">No Ads</span>
+      <span class="badge">No Data Collection</span>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Features -->
+    <p class="section-title">Features</p>
+    <div class="feature-grid">
+      <div class="feature-card">
+        <div class="feature-icon">📇</div>
+        <h3>Flashcard Groups</h3>
+        <p>Organize your cards into groups and switch between them instantly.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🧠</div>
+        <h3>Quiz Mode</h3>
+        <p>Test yourself with multiple-choice quizzes generated from your cards.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔀</div>
+        <h3>Shuffle & Reverse</h3>
+        <p>Shuffle cards randomly or flip the front and back for extra practice.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">▶️</div>
+        <h3>Auto-Play</h3>
+        <p>Automatically advance cards at a set interval for hands-free review.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🌙</div>
+        <h3>Dark Mode</h3>
+        <p>Light, dark, and system theme options to match your preference.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📦</div>
+        <h3>Wordlist Store</h3>
+        <p>Download ready-made wordlists directly from the built-in store.</p>
+      </div>
+    </div>
+
+    <!-- Download -->
+    <div class="info-card">
+      <h2>Download</h2>
+      <p>Plain Flashcard is available on the Microsoft Store. Free to download with no in-app purchases.</p>
+      <div class="link-row">
+        <a class="link-btn primary" href="#">Get it on Microsoft Store</a>
+      </div>
+    </div>
+
+    <!-- Wordlist Store -->
+    <div class="info-card">
+      <h2>Wordlist Store</h2>
+      <p>Browse and download community wordlists from our GitHub repository. You can also create and share your own.</p>
+      <div class="link-row">
+        <a class="link-btn secondary" href="https://github.com/Nightsky6/plainflashcard-wordlists" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+
+    <!-- Privacy -->
+    <div class="info-card">
+      <h2>Privacy</h2>
+      <p>Plain Flashcard does not collect or transmit any personal data. Everything stays on your device.</p>
+      <div class="link-row">
+        <a class="link-btn secondary" href="privacy-policy.html">Privacy Policy</a>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="info-card">
+      <h2>Contact</h2>
+      <p>Developed by <strong>Nightsky Works</strong>. For feedback or inquiries:</p>
+      <div class="link-row">
+        <a class="link-btn secondary" href="mailto:nightskyworks@gmail.com">nightskyworks@gmail.com</a>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    &copy; 2025 Nightsky Works &nbsp;·&nbsp;
+    <a href="privacy-policy.html">Privacy Policy</a>
+  </footer>
+
+</body>
+</html>
