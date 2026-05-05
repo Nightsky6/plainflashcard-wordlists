@@ -12,3 +12,12 @@
     }
   ]
 }
+
+{
+  "name": "미드·영화 필수 표현 20",
+  "description": "미드와 영화에서 자주 듣는 일상 표현 20개",
+  "author": "Nightsky Works",
+  "category": "영어",
+  "cardCount": 20,
+  "url": "https://raw.githubusercontent.com/Nightsky6/plainflashcard-wordlists/main/wordlists/tv-movie-expressions.json"
+}
