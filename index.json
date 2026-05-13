@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updatedAt": "2025-05-03T12:00:00Z",
+  "updatedAt": "2026-05-13T12:00:00Z",
   "lists": [
     {
       "name": "미드·영화 필수 표현 20",
@@ -9,6 +9,38 @@
       "category": "영어",
       "cardCount": 20,
       "url": "https://raw.githubusercontent.com/Nightsky6/plainflashcard-wordlists/master/wordlists/tv-movie-expressions.json"
+    },
+    {
+      "name": "영어회화 필수 표현 #1 – 일상 감정·반응",
+      "description": "원어민이 일상에서 자주 쓰는 감정·반응 표현 20개",
+      "author": "Nightsky Works",
+      "category": "영어",
+      "cardCount": 20,
+      "url": "https://raw.githubusercontent.com/Nightsky6/plainflashcard-wordlists/master/wordlists/daily-expressions-1.json"
+    },
+    {
+      "name": "영어회화 필수 표현 #2 – 대화·소통",
+      "description": "원어민이 대화할 때 자주 쓰는 소통 표현 20개",
+      "author": "Nightsky Works",
+      "category": "영어",
+      "cardCount": 20,
+      "url": "https://raw.githubusercontent.com/Nightsky6/plainflashcard-wordlists/master/wordlists/daily-expressions-2.json"
+    },
+    {
+      "name": "영어회화 필수 표현 #3 – 상황·행동",
+      "description": "원어민이 상황을 묘사하고 행동할 때 쓰는 표현 20개",
+      "author": "Nightsky Works",
+      "category": "영어",
+      "cardCount": 20,
+      "url": "https://raw.githubusercontent.com/Nightsky6/plainflashcard-wordlists/master/wordlists/daily-expressions-3.json"
+    },
+    {
+      "name": "영어회화 필수 표현 #4 – 사교·관계",
+      "description": "원어민이 인간관계에서 자주 쓰는 표현 20개",
+      "author": "Nightsky Works",
+      "category": "영어",
+      "cardCount": 20,
+      "url": "https://raw.githubusercontent.com/Nightsky6/plainflashcard-wordlists/master/wordlists/daily-expressions-4.json"
     }
   ]
 }
