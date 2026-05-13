@@ -1,0 +1,85 @@
+{
+  "Name": "영어회화 필수 표현 #2 – 대화·소통",
+  "Cards": [
+    {
+      "Front": "Can you fill me in?",
+      "Back": "나한테 설명해줄 수 있어? (상황 좀 알려줘)"
+    },
+    {
+      "Front": "Let me get this straight.",
+      "Back": "정리 좀 해볼게. (제대로 이해한 건지 확인할게)"
+    },
+    {
+      "Front": "You've got a point.",
+      "Back": "네 말도 맞아. (일리 있어)"
+    },
+    {
+      "Front": "That's beside the point.",
+      "Back": "그건 핵심을 벗어난 얘기야."
+    },
+    {
+      "Front": "Don't beat around the bush.",
+      "Back": "빙 돌려 말하지 마. (단도직입적으로 말해)"
+    },
+    {
+      "Front": "I'll keep that in mind.",
+      "Back": "명심할게."
+    },
+    {
+      "Front": "Let's get to the point.",
+      "Back": "본론으로 들어가자."
+    },
+    {
+      "Front": "What's the catch?",
+      "Back": "어디 숨겨진 게 있어? (함정이 뭐야?)"
+    },
+    {
+      "Front": "I hear you.",
+      "Back": "이해해. (알겠어)"
+    },
+    {
+      "Front": "That goes without saying.",
+      "Back": "그건 말 안 해도 알지. (당연한 거야)"
+    },
+    {
+      "Front": "We're on the same page.",
+      "Back": "우리 같은 생각이네. (의견이 일치해)"
+    },
+    {
+      "Front": "Could you say that again?",
+      "Back": "다시 한번 말해줄 수 있어?"
+    },
+    {
+      "Front": "I'm just saying.",
+      "Back": "그냥 하는 말이야. (뭐 그렇다고)"
+    },
+    {
+      "Front": "Don't quote me on that.",
+      "Back": "내가 한 말이라고 하지 마. (확실하진 않으니까)"
+    },
+    {
+      "Front": "Let's talk it over.",
+      "Back": "얘기 좀 해보자. (상의하자)"
+    },
+    {
+      "Front": "I'll take your word for it.",
+      "Back": "네 말 믿을게."
+    },
+    {
+      "Front": "It's not what it looks like.",
+      "Back": "보이는 것과 달라. (오해하지 마)"
+    },
+    {
+      "Front": "I spoke too soon.",
+      "Back": "내가 너무 성급하게 말했네."
+    },
+    {
+      "Front": "Can I get a word in?",
+      "Back": "나도 한마디 해도 돼?"
+    },
+    {
+      "Front": "You read my mind.",
+      "Back": "내 마음을 읽었네. (내가 딱 그 말 하려 했어)"
+    }
+  ]
+}
